@@ -11,7 +11,6 @@ const data = [
   { number: 10, text: "Projects" },
   { number: 5, text: "HTML/CSS Projects" },
   { number: 4, text: "React.js Projects" },
-  { number: 2, text: "Mern Stack Projects" },
 ];
 
 const Acomplishments = () => (
