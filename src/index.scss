@@ -1,0 +1,26 @@
+$myFont: "Lato", "Montserrat", sans-serif;
+$myFontSize: 18px;
+
+body {
+  margin: 0;
+  font-family: $myFont;
+  font-size: $myFontSize;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000 !important;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
