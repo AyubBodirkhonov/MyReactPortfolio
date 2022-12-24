@@ -1,0 +1,24 @@
+.section-about {
+  width: 100%;
+  height: auto;
+  margin: 80px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+
+  .about-image {
+    display: block;
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+    &:hover {
+      transform: scale(1.2);
+      opacity: 1.1;
+    }
+  }
+}

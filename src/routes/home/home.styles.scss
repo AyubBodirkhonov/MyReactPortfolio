@@ -1,18 +1,10 @@
-$tablet-width: 768px;
-$desktop-width: 1024px;
-
-
-.header-container {
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
+.header {
   display: block;
-  margin: 0 auto;
-  width: 1440px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  text-align: center;
+  margin-top: 5rem;
 
   //background image
-  .background-image {
-    position: relative;
+  .header-image {
     top: 120px;
     z-index: -1;
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(46, 46, 46, 0)),
@@ -23,20 +15,53 @@ $desktop-width: 1024px;
     width: 100%;
     height: 100vh;
 
-    .background-text {
+    .header-text-container {
       text-align: center;
-      position: absolute;
-      top: 5%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       color: white;
     }
 
     h1 {
-      font-size: 56px;
+      font-size: 34px;
+      text-align: center;
+      transform: scale(0.5);
+      animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      word-spacing: 5px;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      text-shadow: 0 0 20px;
+
+      span {
+        display: inline-block;
+        opacity: 0;
+        filter: blur(4px);
+      }
+      span:nth-child(1) {
+        animation: fade-in 2.5s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+
+      span:nth-child(2) {
+        animation: fade-in 3s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
     }
-    p {
-      font-size: 15px;
-    }
+  }
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1.1);
   }
 }

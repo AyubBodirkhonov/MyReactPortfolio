@@ -1,0 +1,13 @@
+.menu-icon-container {
+  padding: 35px 35px;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  left: 10px;
+  top: 20%;
+  .menu-icon {
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+  }
+}
