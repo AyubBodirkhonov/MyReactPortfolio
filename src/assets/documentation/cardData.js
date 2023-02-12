@@ -38,6 +38,7 @@ export const cards = [
     subTitle: "JavaScript(ES6), React, Sass, Email.js, React-slick",
     description:
       "Recently I have finished my react portfolio that you looking for right now",
+    url: "https://github.com/AyubBodirkhonov/MyReactPortfolio",
   },
   // {
   //   id: 6,

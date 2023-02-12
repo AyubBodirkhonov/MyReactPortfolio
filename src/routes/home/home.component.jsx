@@ -38,11 +38,19 @@ const Home = () => {
         >
           <img src={linkedin} alt="linkedin" />
         </a>
-        <a href="https://twitter.com/ABodirkhonov">
-          <img src={twitter} alt="twitter" target="_blank" rel="noreferrer" />
+        <a
+          href="https://twitter.com/ABodirkhonov"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={twitter} alt="twitter" />
         </a>
-        <a href="mailto:ayub.bodirkhonov98@gmail.com">
-          <img src={gmail} alt="gmail" target="_blank" rel="noreferrer" />
+        <a
+          href="mailto:ayub.bodirkhonov98@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={gmail} alt="gmail" />
         </a>
       </div>
     </div>
