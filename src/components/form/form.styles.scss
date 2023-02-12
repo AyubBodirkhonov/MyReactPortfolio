@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 450px;
+  label {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Lato", "Montserrat", sans-serif;
+    margin: 10px 0;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    padding: 0.5rem;
+    border: double 2px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(rgb(14, 13, 13), rgb(20, 20, 20)),
+      linear-gradient(to right, #af40ff, #5b42f3 50%, #00ddeb);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 8px;
+    font-family: "Lato", "Montserrat", sans-serif;
+  }
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7;
+  }
+  textarea {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+}

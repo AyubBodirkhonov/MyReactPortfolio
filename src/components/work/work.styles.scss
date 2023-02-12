@@ -1,0 +1,11 @@
+.section-work {
+  margin: 5rem 0;
+
+  h2 {
+    &::before {
+      width: 5.5rem;
+     
+    }
+  }
+}
+

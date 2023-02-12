@@ -1,0 +1,72 @@
+.card {
+  border: 1px solid #fff;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1 !important;
+  color: #e5e5e5 !important;
+}
+
+li.slick-active button:hover:before,
+li.slick-active button:focus:before {
+  opacity: 1 !important;
+  color: black !important;
+}
+.slick-dots li button:before {
+  opacity: 1 !important;
+  color: #e5e5e5 !important;
+  opacity: 0.55 !important;
+  font-size: 7px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #e5e5e5 !important;
+  font-size: 6px;
+}
+
+.slick-list {
+  margin: 0 -10px !important;
+}
+.card-top {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-bottom {
+  display: block;
+
+  h3 {
+    font-size: 1.2rem;
+  }
+  h3,
+  h5,
+  p {
+    text-align: left;
+    padding: 5px 20px;
+    margin: 2px 0;
+  }
+  h5 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  Button {
+    width: 100%;
+    border-radius: 0;
+  }
+}

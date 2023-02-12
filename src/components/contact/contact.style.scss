@@ -1,0 +1,30 @@
+.contact {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+
+  p {
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+
+  img {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+  }
+}
+

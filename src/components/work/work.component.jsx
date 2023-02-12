@@ -1,7 +1,11 @@
+import CardSlider from "./cardSlider/cardSlider.component";
+import "./work.styles.scss";
+
 const Work = () => {
   return (
     <div id="work" className="section-work">
-      <div className="work-container"></div>
+      <h2> Projects </h2>
+      <CardSlider />
     </div>
   );
 };

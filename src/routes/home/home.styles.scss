@@ -65,3 +65,27 @@
     transform: scale(1.1);
   }
 }
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: 94%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+   
+    &:hover {
+     transform: scale(1.2);
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+}
