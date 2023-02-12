@@ -25,3 +25,9 @@
     top: 15%;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .menu-icon-container {
+    top: 6%;
+  }
+}
