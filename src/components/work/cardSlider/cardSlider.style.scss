@@ -57,7 +57,6 @@ li.slick-active button:focus:before {
   h5 {
     font-size: 0.9rem;
     font-weight: 300;
-    
   }
 
   p {
@@ -68,5 +67,24 @@ li.slick-active button:focus:before {
   Button {
     width: 100%;
     border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slick-track {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .slick-slide > div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 300px !important;
   }
 }

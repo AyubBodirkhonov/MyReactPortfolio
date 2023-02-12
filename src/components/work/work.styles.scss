@@ -1,11 +1,22 @@
 .section-work {
   margin: 5rem 0;
-
+  width: 100%;
   h2 {
     &::before {
       width: 5.5rem;
-     
     }
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .section-work {
+    width: 70%;
+    margin: 5rem auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section-work {
+    width: 50%;
+  }
+}

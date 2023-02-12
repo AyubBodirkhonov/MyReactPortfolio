@@ -8,7 +8,7 @@ const Document = () => {
         <div className="doc-items" key={doc.id}>
           <h2>About</h2>
           <p>{doc.introduction}</p>
-          <p>Hi, I'm Ayub Bodirkhonov a Frontend Developer</p>
+          <p>Hi, I'm Ayub Bodirkhonov a Frontend Web Developer</p>
         </div>
       ))}
       <div className="button-container">

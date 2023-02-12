@@ -22,3 +22,25 @@
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .section-about {
+    justify-content: space-evenly;
+  }
+  .about-image {
+    width: 20% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-about {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section-about {
+    margin: 4rem auto;
+    height: 50%;
+  }
+} 

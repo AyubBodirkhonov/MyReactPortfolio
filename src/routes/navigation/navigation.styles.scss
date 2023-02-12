@@ -6,7 +6,7 @@
   width: 120px;
   background-color: #333;
   display: block;
-  
+
   .myImage {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0.466),
@@ -23,7 +23,7 @@
   .nav-links-container {
     height: 100vh;
     display: block;
-    
+
     .icon-container {
       width: 120px;
       height: 100px;
@@ -50,4 +50,23 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navigation,
+  .myImage,
+  .icon-container {
+    width: 90px !important;
+  }
+  .icon-container {
+    height: 80px !important;
+    display: block !important;
+  }
+  .icons {
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
 }

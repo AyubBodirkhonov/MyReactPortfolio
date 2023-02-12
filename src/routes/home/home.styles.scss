@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
 .header {
   display: block;
-  margin-top: 5rem;
-
+  padding-top: 2rem;
   //background image
   .header-image {
     top: 120px;
@@ -79,13 +78,20 @@
     text-align: center;
     margin: 10px 0;
     transition: all 0.3s ease;
-   
+
     &:hover {
-     transform: scale(1.2);
+      transform: scale(1.2);
     }
   }
 
   img {
     width: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .icon-bar {
+    left: 90% !important;
+    z-index: 999;
   }
 }
