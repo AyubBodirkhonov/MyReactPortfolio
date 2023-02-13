@@ -1,8 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import monstersImage from "../../../assets/content-img/monstersImage.png";
-
 import { cards } from "../../../assets/documentation/cardData";
 import Button from "../../UI/button.component";
 import "./cardSlider.style.scss";
@@ -47,7 +45,7 @@ const CardSlider = () => {
       {cards.map((card) => (
         <div className="card" key={card.id}>
           <div className="card-top">
-            <img src={monstersImage} alt={card.title} />
+            <img src={card.src} alt={card.title} />
           </div>
           <div className="card-bottom">
             <h3>{card.title}</h3>
