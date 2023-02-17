@@ -46,6 +46,7 @@ const Form = () => {
       <input
         type="text"
         name="name"
+        required
         value={formData.name}
         onChange={handleChange}
         placeholder="Name"
@@ -54,6 +55,7 @@ const Form = () => {
       <input
         type="email"
         name="email"
+        required
         value={formData.email}
         onChange={handleChange}
         placeholder="Email"
@@ -61,6 +63,7 @@ const Form = () => {
       <label htmlFor="message">Message</label>
       <textarea
         name="message"
+        required
         value={formData.message}
         onChange={handleChange}
         placeholder="Message . . ."
